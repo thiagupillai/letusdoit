@@ -12,6 +12,11 @@ p{	color:rgba(139, 85, 14, 0.856);
 	font-size: 20px;
 	background-color: #2cf04c;
 		}
+.divbox01{
+	border: 5px outset blue;
+	background-color: lightblue;
+	text-align: center;
+}
 #MainPoint{
 	font-size: 15px;
 	font-weight: bold;
