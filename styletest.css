@@ -1,0 +1,27 @@
+h1{	color:green;
+	font-sie:40px;
+	text-align:center; }
+h2{ color:#ff0000;
+	font-sie:30px;
+	text-align:center; }
+p{	color:rgba(139, 85, 14, 0.856);
+	font-size:15px;
+	width:300px }
+.bluev{ color :blueviolet}
+.highlight {
+	font-size: 20px;
+	background-color: #2cf04c;
+		}
+#MainPoint{
+	font-size: 15px;
+	font-weight: bold;
+	background-color: #eeff00;
+	}
+img {
+	max-width: 100%;
+	height: auto;
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	width: 150px;
+		}
