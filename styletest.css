@@ -1,9 +1,14 @@
 h1{	color:green;
-	font-sie:40px;
+	font-sie:50px;
 	text-align:center; }
 h2{ color:#ff0000;
 	font-sie:30px;
 	text-align:center; }
+h3 {
+	color: lightgreen;
+	font-sie: 20px;
+	text-align: left;
+}
 p{	color:rgba(139, 85, 14, 0.856);
 	font-size:15px;
 	width:300px }
@@ -17,7 +22,44 @@ p{	color:rgba(139, 85, 14, 0.856);
 	background-color: lightblue;
 	text-align: center;
 }
-#MainPoint{
+.divbox02 {
+	border: 10px outset green;
+	background-color: lightgreen;
+	text-align: center;
+}
+.divbox03 {
+	border: 0px;
+	background-color: lightsalmon;
+	text-align: center;
+}
+.divboxanyname {
+	border: 0px;
+	background-color: lightseagreen;
+	text-align: center;
+}
+.grid-container {
+	display: grid;
+	column-gap:10px;
+	grid-row-gap:5px;
+	grid-template-columns: auto auto auto auto;
+	background-color: #2196F3;
+	padding: 10px;
+	}
+.grid-item {
+	background-color: rgba(255, 255, 1, 0.8);
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
+	}
+.grid-item02 {
+	background-color: rgba(214, 0, 0, 1);
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
+}
+	#MainPoint{
 	font-size: 15px;
 	font-weight: bold;
 	background-color: #eeff00;
