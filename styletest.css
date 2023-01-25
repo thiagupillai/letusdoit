@@ -1,3 +1,45 @@
+*{
+	padding:0;
+	margin:0;
+	text-decoration: none;
+	life-style: none;
+	box-sizing: border-box;
+}
+body {
+	font-family: montserrat;
+}
+nav{
+background: #0082e6; 
+height: 80px;
+width: 100%;
+font-weight: bold;}
+nav ul{
+	float: right;
+	margin-right: 20px;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 80px;
+	margin: 0 5px;
+}
+nav ul li a{
+	color: white;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius: 3px;
+	text-transform: uppercase;
+}
+a.active, a:hover{
+	background:#1b9bff;
+	transition: .5s;
+}
+label.logo{
+	color: white;
+	font-size: 35px;
+	line-height: 80px;
+	padding: 0 100 px;
+}
+
 h1{	color:green;
 	font-sie:50px;
 	text-align:center; }
